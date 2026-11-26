@@ -1,0 +1,5 @@
+user_id,schema_metadata,parsed_preferences
+User_1001,"Brand:Maybelline,Cat:Makeup",brand=Maybelline; category=Makeup
+User_1001,"Brand:Maybelline,Cat:Skincare",brand=Maybelline; category=Skincare
+User_1002,"Brand:L'Oreal,Cat:Face",brand=L'Oreal; category=Face
+User_1002,"Brand:Maybelline,Cat:Makeup",brand=Maybelline; category=Makeup

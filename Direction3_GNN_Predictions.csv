@@ -1,0 +1,21 @@
+user_id,rank_gnn,recommended_item_gnn,gnn_cosine_score,title,brand,main_category,sub_category
+User_1001,1,Product_B00005ND10,0.6723178625106812,NYX Premium Beauty Care Item D10,NYX,Haircare,Haircare/Shampoo
+User_1001,2,Product_B00005ND19,0.6702202558517456,Clinique Premium Beauty Care Item D19,Clinique,Haircare,Haircare/Shampoo
+User_1001,3,Product_B00005ND0E,0.6601892709732056,Sephora Premium Beauty Care Item D0E,Sephora,Skincare,Skincare/Eyes
+User_1001,4,Product_B00005ND06,0.6466218829154968,NYX Premium Beauty Care Item D06,NYX,Skincare,Skincare/Eyes
+User_1001,5,Product_B00005ND04,0.6450893878936768,NARS Premium Beauty Care Item D04,NARS,Skincare,Skincare/Eyes
+User_1001,6,Product_B00005ND09,0.6438597440719604,Neutrogena Premium Beauty Care Item D09,Neutrogena,Makeup,Makeup/Face
+User_1001,7,Product_B00005ND1B,0.6420567035675049,Maybelline Premium Beauty Care Item D1B,Maybelline,Haircare,Haircare/Shampoo
+User_1001,8,Product_B00005ND0A,0.6397048234939575,NYX Premium Beauty Care Item D0A,NYX,Skincare,Skincare/Eyes
+User_1001,9,Product_B00005ND0C,0.6359957456588745,Neutrogena Premium Beauty Care Item D0C,Neutrogena,Makeup,Makeup/Face
+User_1001,10,Product_B00005ND07,0.6264647245407104,NYX Premium Beauty Care Item D07,NYX,Skincare,Skincare/Eyes
+User_1002,1,Product_B00005ND1A,0.7023189067840576,Sephora Premium Beauty Care Item D1A,Sephora,Skincare,Skincare/Face
+User_1002,2,Product_B00005ND01,0.695509672164917,Sephora Premium Beauty Care Item D01,Sephora,Skincare,Skincare/Eyes
+User_1002,3,Product_B00005ND1D,0.6779597401618958,Sephora Premium Beauty Care Item D1D,Sephora,Makeup,Makeup/Lips
+User_1002,4,Product_B00005ND0F,0.6768330335617065,Sephora Premium Beauty Care Item D0F,Sephora,Haircare,Haircare/Shampoo
+User_1002,5,Product_B00005ND15,0.6703046560287476,Sephora Premium Beauty Care Item D15,Sephora,Haircare,Haircare/Shampoo
+User_1002,6,Product_B00005ND1B,0.6608158946037292,Maybelline Premium Beauty Care Item D1B,Maybelline,Haircare,Haircare/Shampoo
+User_1002,7,Product_B00005ND10,0.6520439386367798,NYX Premium Beauty Care Item D10,NYX,Haircare,Haircare/Shampoo
+User_1002,8,Product_B00005ND19,0.629381000995636,Clinique Premium Beauty Care Item D19,Clinique,Haircare,Haircare/Shampoo
+User_1002,9,Product_B00005ND0C,0.6211843490600586,Neutrogena Premium Beauty Care Item D0C,Neutrogena,Makeup,Makeup/Face
+User_1002,10,Product_B00005ND0E,0.6071037650108337,Sephora Premium Beauty Care Item D0E,Sephora,Skincare,Skincare/Eyes

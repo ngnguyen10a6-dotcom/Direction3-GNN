@@ -1,0 +1,2 @@
+model,num_entities,num_relations,num_base_triples,train_triples_with_inverse,test_triples_with_inverse,KG_link_prediction_MRR_sampled,KG_link_prediction_Hits@10_sampled,epochs,embedding_dim
+R-GCN knowledge-graph link prediction,49,10,97,156,38,0.42961270913649924,0.7894736842105263,200,32

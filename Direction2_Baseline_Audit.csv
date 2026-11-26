@@ -1,0 +1,5 @@
+user_id,recommended_item_h2,score_kg,item_exists_in_excel_catalog,schema_metadata
+User_1001,Product_B00005NDAB,0.92,False,"Brand:Maybelline,Cat:Makeup"
+User_1001,Product_B00005NDAD,0.85,False,"Brand:Maybelline,Cat:Skincare"
+User_1002,Product_B00005NDAC,0.89,False,"Brand:L'Oreal,Cat:Face"
+User_1002,Product_B00005NDAB,0.75,False,"Brand:Maybelline,Cat:Makeup"
