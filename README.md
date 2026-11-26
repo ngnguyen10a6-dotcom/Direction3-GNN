@@ -1,43 +1,51 @@
-Hướng 3 — Graph Neural Network (GNN) Recommendation
+HƯỚNG 3 – GRAPH NEURAL NETWORK (GNN)
 
 Người thực hiện: Giảng Nguyên (Member 3)
 
-Đề tài: Phát triển hệ thống gợi ý sản phẩm sử dụng Graph Neural Network (GNN).
-
 1. Mục tiêu
 
-Kế thừa dữ liệu và kết quả từ Hướng 2 — Knowledge Graph Recommendation, xây dựng mô hình Graph Neural Network (GNN) để học biểu diễn người dùng và sản phẩm trên đồ thị tri thức. Từ đó cải thiện khả năng dự đoán và gợi ý sản phẩm.
+Xây dựng mô hình Graph Neural Network (GNN) kế thừa dữ liệu từ Hướng 2 – Knowledge Graph, nhằm học mối quan hệ giữa người dùng, sản phẩm, thương hiệu và danh mục sản phẩm để hỗ trợ gợi ý sản phẩm.
 
 2. Dữ liệu đầu vào
 
-* Dataset: All_Beauty_Cleaned_Merged_GitHub.xlsx
-* User Profile: Direction3_User_Profile_From_H2.csv
-* Baseline: Direction2_Baseline_Audit.csv
+* All_Beauty_Cleaned_Merged_GitHub.xlsx
+* Direction2_KG_Predictions.csv
+* Direction3_User_Profile_From_H2.csv
 
 3. Phương pháp thực hiện
 
-* Xây dựng đồ thị người dùng và sản phẩm.
-* Huấn luyện mô hình GNN.
-* Tạo điểm dự đoán cho sản phẩm.
-* Xếp hạng Top 10 sản phẩm.
-* Đánh giá kết quả mô hình.
+* Xây dựng Knowledge Graph.
+* Sử dụng mô hình R-GCN kết hợp DistMult.
+* Huấn luyện mô hình với 200 epochs, embedding dimension 32.
+* Tạo danh sách gợi ý Top-10 bằng cosine similarity.
+* Đánh giá bằng MRR và Hits@10.
 
 4. Kết quả thực nghiệm
 
+Chỉ số	Kết quả
+Entities	49
+Relations	10
+Base Triples	97
+MRR	0.4296
+Hits@10	0.7895
+
+5. Source Code và kết quả
+
+* Direction3_GNN.ipynb
 * Direction3_GNN_Predictions.csv
 * Direction3_GNN_Metrics.csv
-* GNN_Top10_Score.png
+* Direction3_User_Profile_From_H2.csv
+* Direction2_Baseline_Audit.csv
 * GNN_Training_Loss.png
+* GNN_Top10_Score.png
 * GNN_Brand_Distribution.png
 
-5. Công cụ sử dụng
+6. Công nghệ sử dụng
 
-* Python
-* Pandas
-* PyTorch
-* Google Colab
-* GitHub
+Python, Pandas, NumPy, PyTorch, Matplotlib, Google Colab và GitHub.
 
-6. Kết luận
+7. Kết luận
 
-Hướng 3 ứng dụng Graph Neural Network để khai thác mối quan hệ giữa người dùng và sản phẩm, tạo cơ sở cho việc phát triển hệ thống gợi ý sản phẩm thông minh hơn.
+Mô hình R-GCN kết hợp DistMult đã được xây dựng và thực nghiệm trên Knowledge Graph. Kết quả bước đầu cho thấy khả năng dự đoán liên kết trong đồ thị tri thức.
+
+Lưu ý: MRR và Hits@10 đánh giá dự đoán liên kết KG, không phải độ chính xác gợi ý sản phẩm.
